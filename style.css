@@ -125,7 +125,8 @@
 }
   /* HEADER */
   .header{
-    background:var(--dark);
+    background:transparent;
+    padding:2rem;
     position:relative;
     position:fixed;
     width:100%;
@@ -201,7 +202,7 @@
   @media screen and (max-width:500px){
     /* Makes header navigation disappear in mobile*/
     .header__nav{    
-      background: blue;
+      background:blue;
       position:absolute;
       top:0rem;
       right:-100rem;
@@ -238,9 +239,15 @@
   }
 
 
+/* BANNER */
+.banner{
+  background-image:url("/img/banner_home_v1.jpg");
+  background-size:cover;
+  height:100vh;
+  background-position:center center;
+}
 
-
-
+    
   /* REPEATEBLE PATTERNS */
   :root{
     --light:#ffffff;

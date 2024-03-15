@@ -335,6 +335,65 @@
     justify-content:center;
   }
 }
+/* OFFER */
+.offer{
+height:100vh;
+background-position:center center;
+  position:relative;
+  display:flex;
+  align-items:center;
+}
+
+.offer__text{
+ max-width:65rem;
+ display:flex;
+ flex-direction:column;
+ gap:4rem;
+ 
+}
+.offer__text a.look_offer{
+  background:var(--primary);
+  border-radius:4rem;
+  color:var(--light);
+  font-size:1.5rem;
+  font-weight:600;
+  width:fit-content;
+  padding:.5rem 1rem;
+  
+}
+
+.offer__text h2{
+  font-size:5rem;
+  color: var(--primary);
+  font-weight:600;
+  
+}
+.offer__text p{
+  font-weight:600;
+}
+.offer__price h4{
+  color: orange;
+  font-weight:600;
+  font-size: 3rem;
+}
+.offer_cents h4{
+  font: size 11px;
+}
+@media screen and (max-width:500px){
+  .offer__text h2{
+    font-size:4rem;
+    text-align:center;
+  }
+  .offer__text p{
+    font-size:1.5rem;
+    font-weight:600;
+    text-align:center;
+  }
+  .offer__text a.look_offer{
+   display:flex;
+   flex-direction:column;
+  }
+}
     
   /* REPEATEBLE PATTERNS */
   :root{
@@ -366,4 +425,5 @@
   font-size:1.5rem;
   font-weight:600;
 }
+
 
